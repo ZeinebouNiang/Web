@@ -1,0 +1,27 @@
+
+/* Style du logo */
+
+@import url("logo.css") all;
+
+html{
+        background: #1A0000;
+}
+
+/* Suppression de décoration sur les liens */
+a {
+        text-decoration : none;
+}
+
+/* Disposition du contenu en grille */
+#contenant {
+        display: grid;
+        /* column-gap: 25px; */
+        /* row-gap: 50px; */
+        align-content: space-around;
+        justify-content: space-around;
+}
+
+div img {
+        width: 45%;
+        height: auto;
+}
